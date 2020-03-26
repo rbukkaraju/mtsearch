@@ -1,165 +1,336 @@
 {
-  "Stats": {
-    "BeginTime": "2020-03-23T06:02:15.5034907Z",
-    "EndTime": "2020-03-23T06:02:16.0435368Z",
-    "QueryTime": 365,
-    "TotalCount": 236,
-    "MaxScore": 8848.777
-  },
-  "Hits": [
-    {
-      "Id": "13393174",
-      "Index": "incident-20200211",
-      "Score": 8848.777,
-      "Results": {
-        "EntityType": "Incidents",
-        "ID": "13393174",
-        "Title": "test",
-        "BeginDate": null,
-        "TypeName": "Not Applicable",
-        "Status": [
-          "Closed"
-        ],
-        "MainProductLine": "Infor Concierge",
-        "MainProduct": "Incidents Widget",
-        "Description": "test",
-        "Release": [
-          "Unspecified"
-        ],
-        "Reference": null,
-        "AffectedProductLine": [
-          "Infor Concierge"
-        ],
-        "AffectedProduct": [
-          "Incidents Widget"
-        ],
-        "Region": [
-          "APJ"
-        ],
-        "Country": [
-          "Philippines"
-        ],
-        "HasFileAttachment": "0",
-        "Platform": null,
-        "LastUpdateDate": "2019-04-17 02:37:58.0",
-        "FileLocation": null,
-        "Language": null,
-        "File": null,
-        "AffectedProductLineID": [
-          "256"
-        ],
-        "ParentID": null,
-        "ERVotesEndorsements": null,
-        "Audience": "0",
-        "Location": null,
-        "URL": null,
-        "Severity": "Standard",
-        "CustSeverity": null,
-        "Deployment": [
-          "On-Premise"
-        ],
-        "Action": null,
-        "CreateDate": "2019-04-17 02:34:37.0",
-        "InternalLastUpdateDate": "2019-04-17 02:37:58.0",
-        "Owner": "Jane Doe",
-        "Customer": "Infor Global Solutions (APJ)",
-        "CustomerID": "4000783",
-        "Contact": [
-          "Jane Doe"
-        ],
-        "AverageRating": null,
-        "TenantType": null,
-        "Archived": false,
-        "Resolution": "test",
-        "ResolutionID": null,
-        "CTP_TE_PackageID": null,
-        "MainRelease": "Unspecified",
-        "ServicePack": null,
-        "RecommendedKBbyProduct": null,
-        "RecommendedKBbyRelease": null,
-        "Internal": false,
-        "RestrictedInternal": false,
-        "CountofRatedUsers": null,
-        "Likes": null,
-        "AffectedProductID": [
-          "124956"
-        ],
-        "Highlights": "<b>test</b>"
+  "results": {
+    "responses": [
+      {
+        "took": 0,
+        "timed_out": false,
+        "_shards": {
+          "total": 1,
+          "successful": 1,
+          "skipped": 0,
+          "failed": 0
+        },
+        "hits": {
+          "total": 0,
+          "hits": [
+            
+          ]
+        },
+        "status": 200
       },
-      "Missing": []
-    }
-  ],
-  "Facets": [
-    {
-      "Field": "Taxonomy",
-      "Type": 1,
-      "DisplayCount": false,
-      "Order": 1,
-      "Buckets": [
-        {
-          "Display": "Infor Concierge",
-          "Selected": false,
-          "Level": 1,
-          "Count": 236,
-          "Buckets": [
+      {
+        "took": 0,
+        "timed_out": false,
+        "_shards": {
+          "total": 2,
+          "successful": 2,
+          "skipped": 0,
+          "failed": 0
+        },
+        "hits": {
+          "total": 0,
+          "hits": [
+            
+          ]
+        },
+        "status": 200
+      },
+      {
+        "took": 3,
+        "timed_out": false,
+        "_shards": {
+          "total": 12,
+          "successful": 12,
+          "skipped": 0,
+          "failed": 0
+        },
+        "hits": {
+          "total": 4,
+          "max_score": 14.806886,
+          "hits": [
             {
-              "Display": "Cases Widget",
-              "Selected": false,
-              "Level": 2,
-              "Count": 10,
-              "Buckets": [],
-              "Field": "Taxonomy",
-              "Terms": [
-                "Infor Concierge|Cases Widget"
-              ]
+              "_index": "mes$i$v2$lid_infor.chat.1$chat_group$2$1566395340533",
+              "_type": "chat_group",
+              "_id": "d5dbbaa5-c457-4234-8697-c5eb98668c88_mngqacichat_ax1",
+              "_score": 14.806886,
+              "_source": {
+                "updateDate": 1561110193472,
+                "createdByFirstName": "QA Infor",
+                "topics": [
+                  {
+                    "topicName": "General123"
+                  }
+                ],
+                "name": "Fixing Bug",
+                "description": "Debugging issue",
+                "tag": "",
+                "createdByLastName": "Super Admin",
+                "groupGuid": "d5dbbaa5-c457-4234-8697-c5eb98668c88",
+                "createDate": 1561110193472,
+                "status": "ACTIVE"
+              }
             },
             {
-              "Display": "Cloud Provisioning Widget",
-              "Selected": false,
-              "Level": 2,
-              "Count": 4,
-              "Buckets": [],
-              "Field": "Taxonomy",
-              "Terms": [
-                "Infor Concierge|Cloud Provisioning Widget"
-              ]
+              "_index": "mes$i$v2$lid_infor.chat.1$chat_post_topic$2$1565795617899",
+              "_type": "chat_post_topic",
+              "_id": "48e28945-a079-43e0-9c3f-0c63bee46910_mngqacichat_ax1",
+              "_score": 6.677753,
+              "_source": {
+                "updateDate": 1561110368170,
+                "attachments": [
+                  
+                ],
+                "postedByFirstName": "QA Infor",
+                "message": "4323423",
+                "postedByGuid": "c7d5339a-a987-4986-873e-9bab9c971eda",
+                "groupName": "Fixing Bug",
+                "postedByLastName": "Super Admin",
+                "mentions": [
+                  
+                ],
+                "msgGuid": "48e28945-a079-43e0-9c3f-0c63bee46910",
+                "topicGuid": "8af8d70f-d7b1-45d4-93a7-d61c214a1c0f",
+                "postDate": 1561110368170,
+                "topicName": "General123",
+                "tag": "",
+                "groupGuid": "d5dbbaa5-c457-4234-8697-c5eb98668c88",
+                "createDate": 1561110368170,
+                "status": "ACTIVE"
+              }
+            },
+            {
+              "_index": "mes$i$v2$lid_infor.chat.1$chat_post_topic$2$1565795617899",
+              "_type": "chat_post_topic",
+              "_id": "eb3a9e09-0cdd-4eb4-9d0e-f278f66fbdaf_mngqacichat_ax1",
+              "_score": 6.677753,
+              "_source": {
+                "updateDate": 1561110407694,
+                "attachments": [
+                  
+                ],
+                "postedByFirstName": "QA Infor",
+                "message": "a12312312",
+                "postedByGuid": "c7d5339a-a987-4986-873e-9bab9c971eda",
+                "groupName": "Fixing Bug",
+                "postedByLastName": "Super Admin",
+                "mentions": [
+                  
+                ],
+                "msgGuid": "eb3a9e09-0cdd-4eb4-9d0e-f278f66fbdaf",
+                "topicGuid": "6065ed8a-8220-4ed4-81d4-d3cb8136c2a6",
+                "postDate": 1561110407694,
+                "topicName": "2132131",
+                "tag": "",
+                "groupGuid": "d5dbbaa5-c457-4234-8697-c5eb98668c88",
+                "createDate": 1561110407694,
+                "status": "ACTIVE"
+              }
+            },
+            {
+              "_index": "mes$i$v2$lid_infor.chat.1$chat_post_topic$2$1565795617899",
+              "_type": "chat_post_topic",
+              "_id": "9c4cfbd0-51a0-4655-9e52-0988c60374c6_mngqacichat_ax1",
+              "_score": 5.439218,
+              "_source": {
+                "updateDate": 1561111096133,
+                "attachments": [
+                  {
+                    "fileName": "broken.jpg",
+                    "attachDate": 1561110827277
+                  },
+                  {
+                    "fileName": "203378.jpg",
+                    "attachDate": 1561110827013
+                  },
+                  {
+                    "fileName": "1111.jpg",
+                    "attachDate": 1561110825620
+                  },
+                  {
+                    "fileName": "DetectivePikachu_afp.jpg",
+                    "attachDate": 1561110825374
+                  },
+                  {
+                    "fileName": "123123.jpg",
+                    "attachDate": 1561110825168
+                  },
+                  {
+                    "fileName": "12222.jpg",
+                    "attachDate": 1561110824698
+                  }
+                ],
+                "postedByFirstName": "QA Infor",
+                "message": "34234 23423 4",
+                "postedByGuid": "c7d5339a-a987-4986-873e-9bab9c971eda",
+                "groupName": "Fixing Bug",
+                "postedByLastName": "Super Admin",
+                "mentions": [
+                  
+                ],
+                "msgGuid": "9c4cfbd0-51a0-4655-9e52-0988c60374c6",
+                "topicGuid": "6065ed8a-8220-4ed4-81d4-d3cb8136c2a6",
+                "postDate": 1561110781857,
+                "topicName": "2132131",
+                "tag": "",
+                "groupGuid": "d5dbbaa5-c457-4234-8697-c5eb98668c88",
+                "createDate": 1561110781857,
+                "status": "ACTIVE"
+              }
             }
-          ],
-          "Field": "AffectedProductLine",
-          "Terms": [
-            "Infor Concierge"
           ]
-        }
-      ],
-      "Count": 236
+        },
+        "status": 200
+      },
+      {
+        "took": 3,
+        "timed_out": false,
+        "_shards": {
+          "total": 34,
+          "successful": 34,
+          "skipped": 0,
+          "failed": 0
+        },
+        "hits": {
+          "total": 0,
+          "hits": [
+            
+          ]
+        },
+        "status": 200
+      },
+      {
+        "took": 1,
+        "timed_out": false,
+        "_shards": {
+          "total": 7,
+          "successful": 7,
+          "skipped": 0,
+          "failed": 0
+        },
+        "hits": {
+          "total": 0,
+          "hits": [
+            
+          ]
+        },
+        "status": 200
+      }
+    ]
+  },
+  "parameters": {
+    "version": 2,
+    "terms": "fix",
+    "searchConfig": {
+      "multiWords": "ANYWORD",
+      "pageNumber": 1,
+      "pageSize": 10
+    },
+    "searchMode": "SEARCH",
+    "tenantId": "mngqacichat_ax1",
+    "userIdentifier": "bfcbf016-0a7f-49f0-a4ed-1d0aff39a62c",
+    "bearerToken": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkluZm9yQWNjZXNzVG9rZW5TaWduaW5nQ2VydGlmaWNhdGUtMTU3NTQ4MDg2NiJ9.eyJzY29wZSI6ImluZm9yLW1pbmdsZXBvcnRhbC1hbGwiLCJqdGkiOiJTcDhLdktmNGJrZHI3dEZ2aWhnVUwwYkhXb1JiZk9DT1cwS28iLCJJZGVudGl0eTIiOiJiZmNiZjAxNi0wYTdmLTQ5ZjAtYTRlZC0xZDBhZmYzOWE2MmMiLCJUZW5hbnQiOiJNTkdRQUNJQ0hBVF9BWDEiLCJTU09TZXNzaW9uSUQiOiJNTkdRQUNJQ0hBVF9BWDF-NjE4ZjMzZDEtMTk1ZC00YmE5LTkzZGItNTBiOGExODYwYzRiIiwiZXhwIjoxNTg1MjA3Mjg3fQ.jaYrdpn9n3VkJrQadGloVrknpdERpopd6wlNmqVh5Hvhjj_aNoKl_AddGOkojaWjqspd9qkMu4X4LGBKWXPReOxOYjAP8_xaUnbUBemsIKmKbebO7wGvqk6VHox5R13n_Y4PTqm1c_fwrWTb1IoFQ2xj6sEWwbR0c-ouHDR8lnKbRK6aWvNF1LXo-1plWpcXcm2XHUUov6nzfP_wI24NxVChauOrqLtQIBgxi19S3v4-cLvswmLrUoHESf8XcmyklAElwKJ7us-t6MnLVU4aRbyqE2NWx1LQ60LZ1jTZ9Qp3MtZJwy2CIAwRZUafCCKuCBwJm3ZtLSiyDTR6AGxR3g",
+    "userLanguage": "en-US"
+  },
+  "context": {
+    "generation": "GEN2",
+    "searchMode": "SEARCH",
+    "searchTargets": [
+      {
+        "from": 0,
+        "size": 10,
+        "fetchSource": true,
+        "logicalId": "lid://infor.file.mestest",
+        "repositories": [
+          "inventory_repo1"
+        ]
+      },
+      {
+        "from": 0,
+        "size": 10,
+        "fetchSource": true,
+        "logicalId": "lid://infor.file.updatehitdescription",
+        "repositories": [
+          "inventoryrepo"
+        ]
+      },
+      {
+        "from": 0,
+        "size": 10,
+        "fetchSource": true,
+        "logicalId": "lid://infor.chat.1",
+        "repositories": [
+          "chat_topic",
+          "chat_post_topic",
+          "chat_conversation",
+          "chat_message",
+          "chat_group",
+          "chat_post_teammate"
+        ]
+      },
+      {
+        "from": 0,
+        "size": 10,
+        "fetchSource": true,
+        "logicalId": "lid://infor.daf.daf",
+        "repositories": [
+          "mds_genericdocument",
+          "addorupdate9",
+          "addorupdate7",
+          "addorupdate8",
+          "spring2",
+          "addorupdate5",
+          "addorupdate6",
+          "addorupdate3",
+          "addorupdate4",
+          "k00000000",
+          "addorupdate1",
+          "addorupdate2",
+          "kkkkkk",
+          "newbuild",
+          "komali",
+          "newdocument",
+          "number",
+          "automation",
+          "chaiiiii",
+          "umatest",
+          "onetwofourreew",
+          "ewrerwerew",
+          "vertyyui",
+          "mds_file",
+          "idm_spotlight",
+          "addorupdate10",
+          "abcxyz",
+          "addorupdate",
+          "hell_boy",
+          "mycache",
+          "credappatied",
+          "afterfix",
+          "ohbaby"
+        ]
+      },
+      {
+        "from": 0,
+        "size": 10,
+        "fetchSource": true,
+        "logicalId": "lid://infor.social.1",
+        "repositories": [
+          "mingle_user",
+          "mingle_stream",
+          "mingle_template",
+          "mingle_group",
+          "mingle_alert",
+          "mingle_post",
+          "mingle_task"
+        ]
+      }
+    ],
+    "searchConfig": {
+      "multiWords": "ANYWORD",
+      "pageNumber": 1,
+      "pageSize": 10
     }
-  ],
-  "Searched": "test",
-  "Query": "",
-  "EventInfo": {
-    "SessionId": "3064df46-7c4e-41f6-8ff3-106e09f4bc39",
-    "EventType": "Search",
-    "EventSubtype": "Auto Suggested",
-    "EventOrder": 1,
-    "EventTime": "2020-Mar-23 06:02:16",
-    "EventStatus": 1,
-    "Application": "Infor Concierge",
-    "UserId": 267676,
-    "UserName": "Jane Doe",
-    "UserType": "Staff",
-    "CompanyId": 4005106,
-    "CompanyName": "SyteLine Development",
-    "SearchFrom": "Site Search",
-    "SearchCategories": "Announcements,Documentation,Enhancement Requests,Events,Incidents,KB Articles,Training Classes",
-    "ProductLineIds": "256",
-    "ProductLineNames": "Infor Concierge",
-    "IncidentId": 0,
-    "KeywordsEntered": "test",
-    "KeywordsSearched": "test",
-    "TotalTime": 540,
-    "TotalResults": 236,
-    "ViewedId": 0,
-    "ViewedType": "",
-    "ViewedTitle": ""
-  }
+  },
+  "status": "OK",
+  "errorCode": 0,
+  "statusCode": 200
 }
