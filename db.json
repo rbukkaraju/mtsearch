@@ -91,57 +91,6 @@
                 "createDate": 1561110407694,
                 "status": "ACTIVE"
               }
-            },
-            {
-              "_index": "mes$i$v2$lid_infor.chat.1$chat_post_topic$2$1565795617899",
-              "_type": "chat_post_topic",
-              "_id": "9c4cfbd0-51a0-4655-9e52-0988c60374c6_mngqacichat_ax1",
-              "_score": 5.439218,
-              "_source": {
-                "updateDate": 1561111096133,
-                "attachments": [
-                  {
-                    "fileName": "broken.jpg",
-                    "attachDate": 1561110827277
-                  },
-                  {
-                    "fileName": "203378.jpg",
-                    "attachDate": 1561110827013
-                  },
-                  {
-                    "fileName": "1111.jpg",
-                    "attachDate": 1561110825620
-                  },
-                  {
-                    "fileName": "DetectivePikachu_afp.jpg",
-                    "attachDate": 1561110825374
-                  },
-                  {
-                    "fileName": "123123.jpg",
-                    "attachDate": 1561110825168
-                  },
-                  {
-                    "fileName": "12222.jpg",
-                    "attachDate": 1561110824698
-                  }
-                ],
-                "postedByFirstName": "QA Infor",
-                "message": "34234 23423 4",
-                "postedByGuid": "c7d5339a-a987-4986-873e-9bab9c971eda",
-                "groupName": "Fixing Bug",
-                "postedByLastName": "Super Admin",
-                "mentions": [
-                  
-                ],
-                "msgGuid": "9c4cfbd0-51a0-4655-9e52-0988c60374c6",
-                "topicGuid": "6065ed8a-8220-4ed4-81d4-d3cb8136c2a6",
-                "postDate": 1561110781857,
-                "topicName": "2132131",
-                "tag": "",
-                "groupGuid": "d5dbbaa5-c457-4234-8697-c5eb98668c88",
-                "createDate": 1561110781857,
-                "status": "ACTIVE"
-              }
             }
           ]
         },
@@ -197,47 +146,6 @@
           "chat_message",
           "chat_group",
           "chat_post_teammate"
-        ]
-      },
-      {
-        "from": 0,
-        "size": 10,
-        "fetchSource": true,
-        "logicalId": "lid://infor.daf.daf",
-        "repositories": [
-          "mds_genericdocument",
-          "addorupdate9",
-          "addorupdate7",
-          "addorupdate8",
-          "spring2",
-          "addorupdate5",
-          "addorupdate6",
-          "addorupdate3",
-          "addorupdate4",
-          "k00000000",
-          "addorupdate1",
-          "addorupdate2",
-          "kkkkkk",
-          "newbuild",
-          "komali",
-          "newdocument",
-          "number",
-          "automation",
-          "chaiiiii",
-          "umatest",
-          "onetwofourreew",
-          "ewrerwerew",
-          "vertyyui",
-          "mds_file",
-          "idm_spotlight",
-          "addorupdate10",
-          "abcxyz",
-          "addorupdate",
-          "hell_boy",
-          "mycache",
-          "credappatied",
-          "afterfix",
-          "ohbaby"
         ]
       },
       {
